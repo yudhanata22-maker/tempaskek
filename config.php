@@ -1,10 +1,11 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 
-$DB_HOST = '127.0.0.1';
-$DB_NAME = 'pos_majoo';
-$DB_USER = 'root';
-$DB_PASS = '';
+$DB_HOST = 'crossover.proxy.rlwy.net';
+$DB_NAME = 'railway';
+$DB_USER = 'rooty';
+$DB_PASS = 'LxgfaKHlBSdNqTxDiYMuQOhBHTmPnLxh';
+$DB_PORT = 55865
 
 try {
     $pdo = new PDO(
